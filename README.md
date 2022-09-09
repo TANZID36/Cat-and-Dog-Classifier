@@ -4,7 +4,7 @@
 
 
 ### Cat and Dog Classifer using Deep Learning Model and deployed by using Flask framework ###
-**The model was trained using transfer learning and MobileNet V2 was used to pre-train the model**
+**The model was trained using transfer learning and Pre-Trained MobileNet V2 was used to train our model**
 **The model can predict cat and dog with an accuracy of 98.9%**
 
 
