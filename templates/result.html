@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Ultimate Cat and Dog Classifier</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+  .jumbotron{
+    background-color:#ffde59;
+    color:black;
+  }
+  body{
+    background-image:url({{url_for('static',filename='images/catdogbg.png')}});
+    overflow:auto;
+  }
+</style>
+
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="text-center"></h1>
+
+    {% if output==1 %}
+      <h1 class="text-center">Your Furry Friend is a DOG!</h1>
+    {% else %}
+      <h1 class="text-center">Your Furry Friend is a CAT!</h1>
+    {% endif %}
+</div>
+
+  <h3 class="text-center"><a href="/" class="btn-lg btn-success" style="color:black">Try New Image</a></h3>
+
+</body>
+</html>
