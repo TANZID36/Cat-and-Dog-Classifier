@@ -23,3 +23,24 @@
 * Step-4: Install all the dependencies
 * Step-5: Run this command.python app.py
 * Step-6: Copy the generated host link & open in local browser. (In my case the link is http://127.0.0.1:5000/ )
+
+
+## Home Page ##
+![Home Page](https://github.com/TANZID36/Cat-and-Dog-Classifier/blob/main/assets/home.png)
+### This is the home page ###
+
+
+## Upload Image ##
+![Upload Image](https://github.com/TANZID36/Cat-and-Dog-Classifier/blob/main/assets/upload.png)
+### Upload your image by clicking on the "Upload an Image" Button ###
+
+
+## If the image is Cat ##
+![Cat](https://github.com/TANZID36/Cat-and-Dog-Classifier/blob/main/assets/cat.png)
+### If the image is of a Cat, the page will show, it is a Cat ###
+
+
+## If the image is Dog ##
+![Dog](https://github.com/TANZID36/Cat-and-Dog-Classifier/blob/main/assets/dog.png)
+### If the image is of a Dog, the page will show, it is a Dog ###
+### You can click "Try New Image" Button to upload another image of your furry friend ###
