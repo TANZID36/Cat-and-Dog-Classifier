@@ -18,9 +18,9 @@
 
 ### How To Run ###
 * Step-1: Clone or download this repository.
-* Step-2: Download the model from here.Move the downloaded model into project folder.
+* Step-2: Move the downloaded files into project folder.
 * Step-3: In command prompt,go to this project directory.
-* Step-4: Install all the dependencies
+* Step-4: Install all the dependencies before running app.py
 * Step-5: Run this command.python app.py
 * Step-6: Copy the generated host link & open in local browser. (In my case the link is http://127.0.0.1:5000/ )
 
